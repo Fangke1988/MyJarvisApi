@@ -1,0 +1,16 @@
+F:\Users\Fangke\Documents\Visual Studio 2017\Projects\JarvisAPI\JarvisAPILogic\bin\Debug\JarvisAPILogic.dll
+F:\Users\Fangke\Documents\Visual Studio 2017\Projects\JarvisAPI\JarvisAPILogic\bin\Debug\JarvisAPILogic.pdb
+F:\Users\Fangke\Documents\Visual Studio 2017\Projects\JarvisAPI\JarvisAPILogic\obj\Debug\JarvisAPILogic.csproj.CoreCompileInputs.cache
+F:\Users\Fangke\Documents\Visual Studio 2017\Projects\JarvisAPI\JarvisAPILogic\obj\Debug\JarvisAPILogic.dll
+F:\Users\Fangke\Documents\Visual Studio 2017\Projects\JarvisAPI\JarvisAPILogic\obj\Debug\JarvisAPILogic.pdb
+F:\Users\Fangke\Documents\Visual Studio 2017\Projects\JarvisAPI\JarvisAPILogic\bin\Debug\System.Net.Http.dll
+F:\Users\Fangke\Documents\Visual Studio 2017\Projects\JarvisAPI\JarvisAPILogic\bin\Debug\System.Net.Http.xml
+F:\Users\Fangke\Documents\Visual Studio 2017\Projects\JarvisAPI\JarvisAPILogic\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+H:\MyJarvisApi\MyJarvisApi\JarvisAPILogic\bin\Debug\JarvisAPILogic.dll
+H:\MyJarvisApi\MyJarvisApi\JarvisAPILogic\bin\Debug\JarvisAPILogic.pdb
+H:\MyJarvisApi\MyJarvisApi\JarvisAPILogic\bin\Debug\System.Net.Http.dll
+H:\MyJarvisApi\MyJarvisApi\JarvisAPILogic\bin\Debug\System.Net.Http.xml
+H:\MyJarvisApi\MyJarvisApi\JarvisAPILogic\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+H:\MyJarvisApi\MyJarvisApi\JarvisAPILogic\obj\Debug\JarvisAPILogic.csproj.CoreCompileInputs.cache
+H:\MyJarvisApi\MyJarvisApi\JarvisAPILogic\obj\Debug\JarvisAPILogic.dll
+H:\MyJarvisApi\MyJarvisApi\JarvisAPILogic\obj\Debug\JarvisAPILogic.pdb
