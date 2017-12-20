@@ -1,0 +1,9 @@
+E:\CODE\Git\MyJarvisApi\JarvisWCF\bin\JarvisWCF.dll.config
+E:\CODE\Git\MyJarvisApi\JarvisWCF\bin\JarvisWCF.dll
+E:\CODE\Git\MyJarvisApi\JarvisWCF\bin\JarvisWCF.pdb
+E:\CODE\Git\MyJarvisApi\JarvisWCF\bin\JarvisAPILogic.dll
+E:\CODE\Git\MyJarvisApi\JarvisWCF\bin\JarvisAPILogic.pdb
+E:\CODE\Git\MyJarvisApi\JarvisWCF\obj\Debug\JarvisWCF.csprojResolveAssemblyReference.cache
+E:\CODE\Git\MyJarvisApi\JarvisWCF\obj\Debug\JarvisWCF.csproj.CoreCompileInputs.cache
+E:\CODE\Git\MyJarvisApi\JarvisWCF\obj\Debug\JarvisWCF.dll
+E:\CODE\Git\MyJarvisApi\JarvisWCF\obj\Debug\JarvisWCF.pdb

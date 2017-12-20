@@ -14,3 +14,8 @@ H:\MyJarvisApi\MyJarvisApi\JarvisAPILogic\bin\Debug\zh-Hans\System.Net.Http.reso
 H:\MyJarvisApi\MyJarvisApi\JarvisAPILogic\obj\Debug\JarvisAPILogic.csproj.CoreCompileInputs.cache
 H:\MyJarvisApi\MyJarvisApi\JarvisAPILogic\obj\Debug\JarvisAPILogic.dll
 H:\MyJarvisApi\MyJarvisApi\JarvisAPILogic\obj\Debug\JarvisAPILogic.pdb
+E:\CODE\Git\MyJarvisApi\JarvisAPILogic\bin\Debug\JarvisAPILogic.dll
+E:\CODE\Git\MyJarvisApi\JarvisAPILogic\bin\Debug\JarvisAPILogic.pdb
+E:\CODE\Git\MyJarvisApi\JarvisAPILogic\obj\Debug\JarvisAPILogic.csproj.CoreCompileInputs.cache
+E:\CODE\Git\MyJarvisApi\JarvisAPILogic\obj\Debug\JarvisAPILogic.dll
+E:\CODE\Git\MyJarvisApi\JarvisAPILogic\obj\Debug\JarvisAPILogic.pdb
