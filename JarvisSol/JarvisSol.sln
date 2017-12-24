@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JarvisAPILogic", "..\Jarvis
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "JarvisWCF", "..\JarvisWCF\", "{A84364E6-FF25-45F7-95B7-DF03AB0986E8}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		ProjectReferences = "{9fa462d8-6be0-4f6f-8522-a20374185d3c}|JarvisAPILogic.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_49532"
 		Debug.AspNetCompiler.PhysicalPath = "..\JarvisWCF\"

@@ -9,6 +9,10 @@ public class Handler : IHttpHandler {
         context.Response.ContentType = "text/plain";
         context.Response.Write("Hello World1");
     }
+     public void TestMethod (HttpContext context) {
+        context.Response.ContentType = "text/plain";
+        context.Response.Write("Hello World");
+    }
  
     public bool IsReusable {
         get {
