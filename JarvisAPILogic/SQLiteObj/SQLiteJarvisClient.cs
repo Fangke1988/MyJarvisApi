@@ -17,22 +17,51 @@ namespace JarvisAPILogic
         {
             get
             {
-                //if (client == null)
-                //{
-                //    client = new SQLiteJarvisClient();
-                //    shutDownTimer = new System.Timers.Timer() { AutoReset = true, Interval = 1000 };
-                //    shutDownTimer.Elapsed -= ShutDownTimer_Elapsed;
-                //    shutDownTimer.Elapsed += ShutDownTimer_Elapsed;
-                //}
+                try { 
+                if (client == null)
+                {
+                    client = new SQLiteJarvisClient();
+                    shutDownTimer = new System.Timers.Timer() { AutoReset = true, Interval = 1000 };
+                    shutDownTimer.Elapsed -= ShutDownTimer_Elapsed;
+                    shutDownTimer.Elapsed += ShutDownTimer_Elapsed;
+                }
 
                 if (connection == null)
                 {
-                    connection = new SQLiteConnection("DataSource=" + @"E:\CODE\DB\DataBase\MyJarvis.db" + ";Version=3;New=False;Compress=True;");
+                    //connection = new SQLiteConnection("DataSource=" + @"E:\CODE\DB\DataBase\MyJarvis.db" + ";Version=3;New=False;Compress=True;");
+                    connection = new SQLiteConnection("DataSource=" + @"H:\Sqlite\DataBase\MyJarvis.db" + ";Version=3;New=False;Compress=True;");
                     connection.Open();
-                    //shutDownTimer.Start();
+                    shutDownTimer.Start();
+                } else
+                {
+                    if (shutSec == 0)
+                    {
+                        connection = new SQLiteConnection("DataSource=" + @"H:\Sqlite\DataBase\MyJarvis.db" + ";Version=3;New=False;Compress=True;");
+                        connection.Open();
+                    }
+                    else
+                    {
+                        switch (connection.State)
+                        {
+                            case System.Data.ConnectionState.Closed:
+                                connection.Open();
+                                shutDownTimer.Start();
+                                break;
+                            case System.Data.ConnectionState.Broken:
+                                connection.Close();
+                                connection.Open();
+                                shutDownTimer.Start();
+                                break;
+                            default:
+                                break;
+                        }
+                    }
                 }
-                else
-                    shutSec = 30;
+                shutSec = 30;
+                }
+                catch (Exception exp) {
+
+                }
                 return connection;
             }
         }
@@ -49,9 +78,10 @@ namespace JarvisAPILogic
             {
                 connection.Close();
                 connection.Dispose();
+                
+                shutDownTimer.Stop();
                 GC.Collect();
                 GC.WaitForPendingFinalizers();
-                shutDownTimer.Stop();
             }
         }
 
