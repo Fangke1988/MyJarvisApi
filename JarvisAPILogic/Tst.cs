@@ -4,6 +4,7 @@ using System.Data.SQLite;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using JarvisAPILogic.NerveCenters;
 
 namespace JarvisAPILogic
 {
@@ -30,6 +31,7 @@ namespace JarvisAPILogic
             string sql = "create table Contacts (name varchar(20), number varchar(20))";
             SQLiteCommand command = new SQLiteCommand(sql, SQLiteJarvisClient.Connection);
             command.ExecuteNonQuery();
+            NerveCenter.NervObj.ExcuteMsg("北京天气");
         }
 
         //插入一些数据

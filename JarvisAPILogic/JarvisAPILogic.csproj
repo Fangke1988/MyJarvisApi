@@ -45,10 +45,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="APIS\WeatherAPI.cs" />
+    <Compile Include="JarvisEnum\ActionEnum.cs" />
+    <Compile Include="MsgReaders\MsgReader.cs" />
+    <Compile Include="NerveCenters\NerveCenter.cs" />
     <Compile Include="SQLiteHelper.cs" />
     <Compile Include="SQLiteObj\SQLiteJarvisClient.cs" />
     <Compile Include="Tst.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AutoTasks\" />
+    <Folder Include="Conversations\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
