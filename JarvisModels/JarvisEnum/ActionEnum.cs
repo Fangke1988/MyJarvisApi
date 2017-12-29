@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace JarvisAPILogic.JarvisEnum
+namespace JarvisModels
 {
     /// <summary>
     /// 初级逻辑枚举
     /// </summary>
-    enum ActionEnum
+   public enum ActionEnum
     {
+        None,
         API,
         Conversation,
         Task

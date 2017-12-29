@@ -1,0 +1,5 @@
+H:\MyGit\MyJarvisApi\JarvisModels\bin\Debug\JarvisModels.dll
+H:\MyGit\MyJarvisApi\JarvisModels\bin\Debug\JarvisModels.pdb
+H:\MyGit\MyJarvisApi\JarvisModels\obj\Debug\JarvisModels.csproj.CoreCompileInputs.cache
+H:\MyGit\MyJarvisApi\JarvisModels\obj\Debug\JarvisModels.dll
+H:\MyGit\MyJarvisApi\JarvisModels\obj\Debug\JarvisModels.pdb

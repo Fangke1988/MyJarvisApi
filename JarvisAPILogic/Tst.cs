@@ -22,7 +22,8 @@ namespace JarvisAPILogic
         }
         public string GetData(string name)
         {
-            return printHighscores(name);
+            return NerveCenter.NervObj.ExcuteMsg("北京天气");
+            //return printHighscores(name);
         }
         
         //在指定数据库中创建一个table
@@ -31,7 +32,7 @@ namespace JarvisAPILogic
             string sql = "create table Contacts (name varchar(20), number varchar(20))";
             SQLiteCommand command = new SQLiteCommand(sql, SQLiteJarvisClient.Connection);
             command.ExecuteNonQuery();
-            NerveCenter.NervObj.ExcuteMsg("北京天气");
+           
         }
 
         //插入一些数据

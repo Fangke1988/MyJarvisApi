@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using JarvisAPILogic.APIS;
-using JarvisAPILogic.JarvisEnum;
+using JarvisModels;
 
 namespace JarvisAPILogic.NerveCenters
 {
@@ -23,12 +23,37 @@ namespace JarvisAPILogic.NerveCenters
 
         internal string ExcuteMsg(string data)
         {
-            if (MsgReaders.MsgReader.MsgObj.GetNotion(data) == ActionEnum.API)
+            string result = string.Empty;
+            var obj = MsgReaders.MsgReader.MsgObj.GetNotion(data);
+            switch (obj.MsgAction)
             {
-                return new WeatherAPI().GetWeatherAlarm(data);
+                case ActionEnum.API:
+                    result = APIDataExcute(obj as APIModel);
+                    break;
+                case ActionEnum.Conversation:
+                    break;
+                case ActionEnum.Task:
+                    break;
+                case ActionEnum.None:
+                    break;
+                default:
+                    break;
             }
             return "";
         }
+
+        private string APIDataExcute(APIModel modelObj)
+        {
+            switch (modelObj.APIAction)
+            {
+                case APIEnum.weather:
+                    return new WeatherAPI().GetWeatherAlarm(modelObj.KeyTargetWords);
+                default:
+                    break;
+            }
+            return "";
+        }
+
 
     }
 }

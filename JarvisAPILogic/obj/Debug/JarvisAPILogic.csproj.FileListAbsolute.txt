@@ -30,3 +30,5 @@ H:\MyGit\MyJarvisApi\JarvisAPILogic\bin\Debug\System.Net.Http.xml
 H:\MyGit\MyJarvisApi\JarvisAPILogic\bin\Debug\zh-Hans\System.Net.Http.resources.dll
 H:\MyGit\MyJarvisApi\JarvisAPILogic\obj\Debug\JarvisAPILogic.dll
 H:\MyGit\MyJarvisApi\JarvisAPILogic\obj\Debug\JarvisAPILogic.pdb
+H:\MyGit\MyJarvisApi\JarvisAPILogic\bin\Debug\JarvisModels.dll
+H:\MyGit\MyJarvisApi\JarvisAPILogic\bin\Debug\JarvisModels.pdb

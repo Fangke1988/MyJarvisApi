@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<JarvisWCFConfigs>
+  <APIKey>
+    <JD>e0603c2725348539dc32e968b5acefbb</JD>
+  </APIKey>
+  <APIUrls>
+    <Weather>https://way.jd.com/jisuapi/weather</Weather>
+    <News></News>
+    <NewsSearch></NewsSearch>
+  </APIUrls>
+</JarvisWCFConfigs>
+  
