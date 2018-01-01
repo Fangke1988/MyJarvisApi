@@ -39,7 +39,7 @@ namespace JarvisAPILogic.NerveCenters
                 default:
                     break;
             }
-            return "";
+            return result;
         }
 
         private string APIDataExcute(APIModel modelObj)

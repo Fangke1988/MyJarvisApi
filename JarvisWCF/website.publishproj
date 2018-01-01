@@ -48,6 +48,10 @@ website.publishproj
       <Project>{9FA462D8-6BE0-4F6F-8522-A20374185D3C}</Project>
       <Name>JarvisAPILogic</Name>
     </ProjectReference>
+    <ProjectReference Include="..\JarvisModels\JarvisModels.csproj">
+      <Project>{E8598E3E-AED7-497E-97B7-668E605A2673}</Project>
+      <Name>JarvisModels</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(_WebPublishTargetsPath)\Web\Microsoft.WebSite.Publishing.targets" />
 </Project>

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace JarvisModels.Models.APIS
+namespace JarvisModels.Models
 {
     public class weatherObj : APIResult
     {

@@ -1,0 +1,10 @@
+E:\CODE\Git\MyJarvisApi\MyJarvisApi\JarvisAPILogic\bin\Release\JarvisAPILogic.dll
+E:\CODE\Git\MyJarvisApi\MyJarvisApi\JarvisAPILogic\bin\Release\JarvisAPILogic.pdb
+E:\CODE\Git\MyJarvisApi\MyJarvisApi\JarvisAPILogic\bin\Release\JarvisModels.dll
+E:\CODE\Git\MyJarvisApi\MyJarvisApi\JarvisAPILogic\bin\Release\Newtonsoft.Json.dll
+E:\CODE\Git\MyJarvisApi\MyJarvisApi\JarvisAPILogic\bin\Release\System.Data.SQLite.dll
+E:\CODE\Git\MyJarvisApi\MyJarvisApi\JarvisAPILogic\bin\Release\JarvisModels.pdb
+E:\CODE\Git\MyJarvisApi\MyJarvisApi\JarvisAPILogic\obj\Release\JarvisAPILogic.csprojResolveAssemblyReference.cache
+E:\CODE\Git\MyJarvisApi\MyJarvisApi\JarvisAPILogic\obj\Release\JarvisAPILogic.csproj.CoreCompileInputs.cache
+E:\CODE\Git\MyJarvisApi\MyJarvisApi\JarvisAPILogic\obj\Release\JarvisAPILogic.dll
+E:\CODE\Git\MyJarvisApi\MyJarvisApi\JarvisAPILogic\obj\Release\JarvisAPILogic.pdb

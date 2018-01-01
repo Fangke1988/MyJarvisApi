@@ -4,7 +4,7 @@
     <JD>e0603c2725348539dc32e968b5acefbb</JD>
   </APIKey>
   <APIUrls>
-    <Weather>https://way.jd.com/jisuapi/weather</Weather>
+    <Weather>https://way.jd.com/he/freeweather</Weather>
     <News></News>
     <NewsSearch></NewsSearch>
   </APIUrls>

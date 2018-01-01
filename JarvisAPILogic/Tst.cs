@@ -22,7 +22,7 @@ namespace JarvisAPILogic
         }
         public string GetData(string name)
         {
-            return NerveCenter.NervObj.ExcuteMsg("北京天气");
+            return NerveCenter.NervObj.ExcuteMsg(name);
             //return printHighscores(name);
         }
         
