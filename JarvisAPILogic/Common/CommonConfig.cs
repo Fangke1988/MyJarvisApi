@@ -56,6 +56,8 @@ namespace JarvisAPILogic
                 {
                     aPIKEY = new APIKeys();
                     aPIKEY.JD = GetElementString(xDoc.Element("APIKey").Element("JD"));
+                    aPIKEY.BaiDuAPIKey = GetElementString(xDoc.Element("APIKey").Element("BaiduAI").Element("APIKey"));
+                    aPIKEY.BaiDuSecretKey = GetElementString(xDoc.Element("APIKey").Element("BaiduAI").Element("SecretKey"));
                 }
                 return aPIKEY;
             }
@@ -83,6 +85,8 @@ namespace JarvisAPILogic
     internal class APIKeys
     {
         public string JD = string.Empty;
+        public string BaiDuAPIKey = string.Empty;
+        public string BaiDuSecretKey = string.Empty;
     }
     internal class APIDataURL
     {

@@ -2,6 +2,10 @@
 <JarvisWCFConfigs>
   <APIKey>
     <JD>e0603c2725348539dc32e968b5acefbb</JD>
+    <BaiduAI>
+      <APIKey>0ZL8DP9bBSYVVMAqlAWLzvGZ</APIKey>
+      <SecretKey>3z4e83Z0U6RqVnPLGmyxlSVjqjzL9HMR</SecretKey>
+    </BaiduAI>
   </APIKey>
   <APIUrls>
     <Weather>https://way.jd.com/he/freeweather</Weather>

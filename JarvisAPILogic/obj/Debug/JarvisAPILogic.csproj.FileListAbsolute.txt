@@ -40,3 +40,17 @@ E:\CODE\Git\MyJarvisApi\MyJarvisApi\JarvisAPILogic\bin\Debug\JarvisModels.dll
 E:\CODE\Git\MyJarvisApi\MyJarvisApi\JarvisAPILogic\bin\Debug\JarvisModels.pdb
 E:\CODE\Git\MyJarvisApi\MyJarvisApi\JarvisAPILogic\obj\Debug\JarvisAPILogic.dll
 E:\CODE\Git\MyJarvisApi\MyJarvisApi\JarvisAPILogic\obj\Debug\JarvisAPILogic.pdb
+H:\Git\MyJarvisApi\JarvisAPILogic\obj\Debug\JarvisAPILogic.csprojResolveAssemblyReference.cache
+H:\Git\MyJarvisApi\JarvisAPILogic\obj\Debug\JarvisAPILogic.csproj.CoreCompileInputs.cache
+H:\Git\MyJarvisApi\JarvisAPILogic\bin\Debug\JarvisAPILogic.dll
+H:\Git\MyJarvisApi\JarvisAPILogic\bin\Debug\JarvisAPILogic.pdb
+H:\Git\MyJarvisApi\JarvisAPILogic\bin\Debug\JarvisModels.dll
+H:\Git\MyJarvisApi\JarvisAPILogic\bin\Debug\System.Net.Http.dll
+H:\Git\MyJarvisApi\JarvisAPILogic\bin\Debug\JarvisModels.pdb
+H:\Git\MyJarvisApi\JarvisAPILogic\bin\Debug\System.Net.Http.xml
+H:\Git\MyJarvisApi\JarvisAPILogic\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+H:\Git\MyJarvisApi\JarvisAPILogic\obj\Debug\JarvisAPILogic.dll
+H:\Git\MyJarvisApi\JarvisAPILogic\obj\Debug\JarvisAPILogic.pdb
+H:\Git\MyJarvisApi\JarvisAPILogic\bin\Debug\AipSdk.dll
+H:\Git\MyJarvisApi\JarvisAPILogic\bin\Debug\Newtonsoft.Json.dll
+H:\Git\MyJarvisApi\JarvisAPILogic\bin\Debug\System.Data.SQLite.dll

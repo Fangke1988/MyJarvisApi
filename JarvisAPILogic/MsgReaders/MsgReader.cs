@@ -30,6 +30,9 @@ namespace JarvisAPILogic.MsgReaders
         private BaseModel GetNotionObj(string data)
         {
             BaseModel result = null;
+
+            var OBJ=MsgNLP.Lexer(data);
+
             if (data.IndexOf("天气") != -1)
             {
                 result = new APIModel() { MsgAction = ActionEnum.API,APIAction= APIEnum.weather};

@@ -31,9 +31,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AipSdk, Version=3.3.0.29135, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\Debug\AipSdk.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Newtonsoft.Json.dll</HintPath>
+      <HintPath>obj\Debug\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -55,6 +59,7 @@
     <Compile Include="Common\CommonConfig.cs" />
     <Compile Include="Common\JsonConvertUtils.cs" />
     <Compile Include="MsgReaders\MsgReader.cs" />
+    <Compile Include="MsgReaders\MsgNLP.cs" />
     <Compile Include="NerveCenters\NerveCenter.cs" />
     <Compile Include="SQLiteHelper.cs" />
     <Compile Include="SQLiteObj\SQLiteJarvisClient.cs" />
@@ -63,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AutoTasks\" />
+    <Folder Include="bin\Debug\" />
     <Folder Include="Conversations\" />
     <Folder Include="JarvisEnum\" />
   </ItemGroup>
@@ -71,6 +77,12 @@
       <Project>{e8598e3e-aed7-497e-97b7-668e605a2673}</Project>
       <Name>JarvisModels</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="obj\Debug\AipSdk.dll" />
+    <Content Include="obj\Debug\Newtonsoft.Json.dll" />
+    <Content Include="obj\Debug\SQLite.Interop.dll" />
+    <Content Include="obj\Debug\System.Data.SQLite.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
