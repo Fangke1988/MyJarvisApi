@@ -13,3 +13,4 @@ H:\Git\MyJarvisApi\JarvisModels\bin\Debug\JarvisModels.pdb
 H:\Git\MyJarvisApi\JarvisModels\obj\Debug\JarvisModels.csproj.CoreCompileInputs.cache
 H:\Git\MyJarvisApi\JarvisModels\obj\Debug\JarvisModels.dll
 H:\Git\MyJarvisApi\JarvisModels\obj\Debug\JarvisModels.pdb
+H:\Git\MyJarvisApi\JarvisModels\obj\Debug\JarvisModels.csprojResolveAssemblyReference.cache

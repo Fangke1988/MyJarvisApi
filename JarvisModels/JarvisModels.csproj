@@ -45,6 +45,11 @@
     <Compile Include="APIModel.cs" />
     <Compile Include="Models\APIS\weatherObj.cs" />
     <Compile Include="Models\BusinessModeBase.cs" />
+    <Compile Include="Models\NLPModelBase.cs" />
+    <Compile Include="Models\NLPS\NLPDepParser.cs" />
+    <Compile Include="Models\NLPS\NLPLexer.cs" />
+    <Compile Include="Models\NLPS\NLPSentimentClassify.cs" />
+    <Compile Include="Models\NLPS\NLPSimNet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

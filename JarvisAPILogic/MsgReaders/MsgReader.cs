@@ -32,6 +32,8 @@ namespace JarvisAPILogic.MsgReaders
             BaseModel result = null;
 
             var OBJ=MsgNLP.Lexer(data);
+            var OBJ2 = MsgNLP.DepParser(data);
+            var OBJ3 = MsgNLP.SentimentClassify(data);
 
             if (data.IndexOf("天气") != -1)
             {
