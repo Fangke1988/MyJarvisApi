@@ -58,6 +58,8 @@
     <Compile Include="Common\APIRequest.cs" />
     <Compile Include="Common\CommonConfig.cs" />
     <Compile Include="Common\JsonConvertUtils.cs" />
+    <Compile Include="Common\Utils\FileUtils.cs" />
+    <Compile Include="Log\LogWritter.cs" />
     <Compile Include="MsgReaders\MsgReader.cs" />
     <Compile Include="MsgReaders\MsgNLP.cs" />
     <Compile Include="NerveCenters\NerveCenter.cs" />
@@ -70,7 +72,6 @@
     <Folder Include="AutoTasks\" />
     <Folder Include="bin\Debug\" />
     <Folder Include="Conversations\" />
-    <Folder Include="JarvisEnum\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\JarvisModels\JarvisModels.csproj">

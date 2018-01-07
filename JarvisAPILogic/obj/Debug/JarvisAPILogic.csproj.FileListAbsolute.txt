@@ -54,3 +54,8 @@ H:\Git\MyJarvisApi\JarvisAPILogic\obj\Debug\JarvisAPILogic.pdb
 H:\Git\MyJarvisApi\JarvisAPILogic\bin\Debug\AipSdk.dll
 H:\Git\MyJarvisApi\JarvisAPILogic\bin\Debug\Newtonsoft.Json.dll
 H:\Git\MyJarvisApi\JarvisAPILogic\bin\Debug\System.Data.SQLite.dll
+E:\CODE\Git\MyJarvisApi\JarvisAPILogic\bin\Debug\AipSdk.dll
+E:\CODE\Git\MyJarvisApi\JarvisAPILogic\bin\Debug\JarvisModels.dll
+E:\CODE\Git\MyJarvisApi\JarvisAPILogic\bin\Debug\Newtonsoft.Json.dll
+E:\CODE\Git\MyJarvisApi\JarvisAPILogic\bin\Debug\System.Data.SQLite.dll
+E:\CODE\Git\MyJarvisApi\JarvisAPILogic\bin\Debug\JarvisModels.pdb

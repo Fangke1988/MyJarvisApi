@@ -24,7 +24,9 @@ namespace JarvisAPILogic.MsgReaders
         {
             try
             {
-                return nlp.Lexer(data).ToObject<NLPLexer>();
+                var obj = nlp.Lexer(data);
+                LogWritter.Write(LogType.Debug, obj.ToString(),"Lexer");
+                return obj.ToObject<NLPLexer>();
             }
             catch (Exception exp)
             {
@@ -41,7 +43,9 @@ namespace JarvisAPILogic.MsgReaders
         {
             try
             {
-                return nlp.Simnet(src, target).ToObject<NLPSimNet>();
+                var obj = nlp.Simnet(src, target);
+                LogWritter.Write(LogType.Debug, obj.ToString(), "SimNet");
+                return obj.ToObject<NLPSimNet>();
             }
             catch (Exception exp)
             {
@@ -57,8 +61,10 @@ namespace JarvisAPILogic.MsgReaders
         {
             try
             {
-                var result = nlp.SentimentClassify(data);
-                return result.ToObject<NLPSentimentClassify>();
+             
+                var obj = nlp.SentimentClassify(data);
+                LogWritter.Write(LogType.Debug, obj.ToString(), "SentimentClassify");
+                return obj.ToObject<NLPSentimentClassify>();
             }
             catch (Exception exp)
             {
@@ -80,7 +86,9 @@ namespace JarvisAPILogic.MsgReaders
                 {
                     {"mode", 1}
                 };
-                return nlp.DepParser(data, options).ToObject<NLPDepParser>();
+                var obj = nlp.DepParser(data, options);
+                LogWritter.Write(LogType.Debug, obj.ToString(), "SentimentClassify");
+                return obj.ToObject<NLPDepParser>();
             }
             catch (Exception exp)
             {
