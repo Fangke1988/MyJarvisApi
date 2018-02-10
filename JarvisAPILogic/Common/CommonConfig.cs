@@ -40,6 +40,7 @@ namespace JarvisAPILogic
                     aPIURL.NewsSearchURL = GetElementString(xDoc.Element("APIUrls").Element("NewsSearch"));
                     aPIURL.NewsURL = GetElementString(xDoc.Element("APIUrls").Element("News"));
                     aPIURL.WeaTherURL = GetElementString(xDoc.Element("APIUrls").Element("Weather"));
+                    aPIURL.BingImageURL = GetElementString(xDoc.Element("APIUrls").Element("BingImage"));
                 }
                 return aPIURL;
             }
@@ -93,5 +94,6 @@ namespace JarvisAPILogic
         public string WeaTherURL = string.Empty;
         public string NewsURL = string.Empty;
         public string NewsSearchURL = string.Empty;
+        public string BingImageURL = string.Empty;
     }
 }

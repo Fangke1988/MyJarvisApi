@@ -22,6 +22,7 @@ public interface ITestConnectSVC
 
     [OperationContract]
     string GetData(string name);
+
     ///// <summary>
     ///// GetJsonResult
     ///// </summary>

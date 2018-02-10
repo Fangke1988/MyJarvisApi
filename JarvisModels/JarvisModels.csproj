@@ -43,6 +43,7 @@
     <Compile Include="BaseModel.cs" />
     <Compile Include="JarvisEnum\APIEnum.cs" />
     <Compile Include="APIModel.cs" />
+    <Compile Include="Models\APIS\BingImageObj.cs" />
     <Compile Include="Models\APIS\weatherObj.cs" />
     <Compile Include="Models\BusinessModeBase.cs" />
     <Compile Include="Models\NLPModelBase.cs" />

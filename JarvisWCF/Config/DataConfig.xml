@@ -9,6 +9,7 @@
   </APIKey>
   <APIUrls>
     <Weather>https://way.jd.com/he/freeweather</Weather>
+    <BingImage>http://www.bing.com/HPImageArchive.aspx</BingImage>
     <News></News>
     <NewsSearch></NewsSearch>
   </APIUrls>

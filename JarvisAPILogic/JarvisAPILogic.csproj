@@ -54,6 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="APIS\BingAPI.cs" />
     <Compile Include="APIS\WeatherAPI.cs" />
     <Compile Include="Common\APIRequest.cs" />
     <Compile Include="Common\CommonConfig.cs" />

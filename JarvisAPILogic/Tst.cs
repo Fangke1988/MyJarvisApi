@@ -5,11 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using JarvisAPILogic.NerveCenters;
+using System.Timers;
 
 namespace JarvisAPILogic
 {
     public class Tst
     {
+        Timer ti = new Timer();
         public static int count = 0;
         public string GetTstStr()
         {
@@ -22,10 +24,32 @@ namespace JarvisAPILogic
         }
         public string GetData(string name)
         {
+            if (name.IndexOf("在吗")!=-1)
+            {
+                return "消息已接收，即将回复您\r\n----[Edvin Jarvis]";
+            }
+            if (name.ToLower() == "downstart")
+            {
+                ti.Interval = 3600000;
+                ti.Elapsed -= Ti_Elapsed;
+                ti.Elapsed += Ti_Elapsed;
+                ti.Start();
+                return "START COMMADE";
+            }
+            if (name.ToLower() == "downstop")
+            {
+                ti.Stop();
+                return "STOP COMMADE";
+            }
             return NerveCenter.NervObj.ExcuteMsg(name);
-            //return printHighscores(name);
         }
-        
+
+        private void Ti_Elapsed(object sender, ElapsedEventArgs e)
+        {
+            NerveCenter.NervObj.ExcuteMsg("SAVE-IMG");
+        }
+
+
         //在指定数据库中创建一个table
         void createTable()
         {

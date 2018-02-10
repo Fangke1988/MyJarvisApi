@@ -25,21 +25,28 @@ namespace JarvisAPILogic.NerveCenters
         {
             string result = string.Empty;
             var obj = MsgReaders.MsgReader.MsgObj.GetNotion(data);
-            switch (obj.MsgAction)
+            if (obj != null)
             {
-                case ActionEnum.API:
-                    result = APIDataExcute(obj as APIModel);
-                    break;
-                case ActionEnum.Conversation:
-                    break;
-                case ActionEnum.Task:
-                    break;
-                case ActionEnum.None:
-                    break;
-                default:
-                    break;
+                switch (obj.MsgAction)
+                {
+                    case ActionEnum.API:
+                        result = APIDataExcute(obj as APIModel);
+                        break;
+                    case ActionEnum.Conversation:
+                        break;
+                    case ActionEnum.Task:
+                        break;
+                    case ActionEnum.None:
+                        break;
+                    default:
+                        break;
+                }
+                return result;
             }
-            return result;
+            else
+            {
+                return "无法识别该指令，正在等待AI转义\r\n----[Edvin Jarvis]";
+            }
         }
 
         private string APIDataExcute(APIModel modelObj)
@@ -48,6 +55,19 @@ namespace JarvisAPILogic.NerveCenters
             {
                 case APIEnum.weather:
                     return new WeatherAPI().GetWeatherAlarm(modelObj.KeyTargetWords);
+                case APIEnum.filesManage:
+                    var bingApi = new BingAPI();
+                    string res = string.Empty;
+                    if (modelObj.KeyActionWords.IndexOf("下载BING图片") != -1)
+                    {
+                        res = bingApi.DownTodayBg();
+                    }
+                    if (modelObj.KeyActionWords.IndexOf("BING背景") != -1)
+                    {
+                        res = bingApi.GetTodayBg();
+                    }
+                    
+                    return res;
                 default:
                     break;
             }
