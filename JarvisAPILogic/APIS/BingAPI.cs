@@ -25,6 +25,8 @@ namespace JarvisAPILogic.APIS
                     var URL = BING_URL_HEAD + IMAGEPATH.images[0].url;
                     Directory.CreateDirectory(AppDomain.CurrentDomain.BaseDirectory + "BINGBG\\" + date);
                     SavePhotoFromUrl(filename, URL);
+                    LogWritter.Write(LogType.Debug, "已下载图片", "BingIMGDownloader");
+
                 }
                 catch (Exception ex)
                 { }

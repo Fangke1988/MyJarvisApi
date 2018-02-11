@@ -13,6 +13,7 @@ namespace JarvisAPILogic
     {
         Timer ti = new Timer();
         public static int count = 0;
+        private const string CommandString = @" Running-启动JARVIS\r\n Stoping-停止JARVIS\r\n downstart-启动Bing图片下载\r\n downstop-停止Bing图片下载\r\n bing-获取今日Bing壁纸\r\n XX天气-获取指定城市(XX)的今日天气";
         public string GetTstStr()
         {
             return count++.ToString();
@@ -22,30 +23,58 @@ namespace JarvisAPILogic
             createTable();
             fillTable();
         }
+        static bool UseJavis = false;
         public string GetData(string name)
         {
-            if (name.IndexOf("在吗")!=-1)
-            {
-                return "消息已接收，即将回复您\r\n----[Edvin Jarvis]";
+            switch (name.ToLower()) {
+                case "running":
+                    UseJavis = true;
+                    return "Edvin Jarvis 已启动，可接受指定指令";
+                case "stoping":
+                    UseJavis = false;
+                    return "Edvin Jarvis 已休眠，停止接收指定指令";
+                case "help":
+                case "指令":
+                case "帮助":
+                case "command":
+                    return CommandString;
+                default:
+                    break;
             }
-            if (name.ToLower() == "downstart")
+
+            if (UseJavis)
             {
-                ti.Interval = 3600000;
-                ti.Elapsed -= Ti_Elapsed;
-                ti.Elapsed += Ti_Elapsed;
-                ti.Start();
-                return "START COMMADE";
+                if (name.IndexOf("在吗") != -1)
+                {
+                    return "消息已接收，即将回复您\r\n----[Edvin Jarvis]";
+                }
+                if (name.ToLower() == "downstart")
+                {
+                    ti.Interval = 30000;
+                    ti.Elapsed -= Ti_Elapsed;
+                    ti.Elapsed += Ti_Elapsed;
+                    ti.Start();
+                    LogWritter.Write(LogType.Debug, "开始启动Timer", "BingIMGDownloader");
+                    return "START COMMADE";
+
+                }
+                if (name.ToLower() == "downstop")
+                {
+                    ti.Stop();
+                    LogWritter.Write(LogType.Debug, "开始启动Timer", "BingIMGDownloader");
+                    return "STOP COMMADE";
+                }
+                return NerveCenter.NervObj.ExcuteMsg(name);
             }
-            if (name.ToLower() == "downstop")
+            else
             {
-                ti.Stop();
-                return "STOP COMMADE";
+                return "";
             }
-            return NerveCenter.NervObj.ExcuteMsg(name);
         }
 
         private void Ti_Elapsed(object sender, ElapsedEventArgs e)
         {
+            LogWritter.Write(LogType.Debug, "Timer定时执行", "BingIMGDownloader");
             NerveCenter.NervObj.ExcuteMsg("SAVE-IMG");
         }
 

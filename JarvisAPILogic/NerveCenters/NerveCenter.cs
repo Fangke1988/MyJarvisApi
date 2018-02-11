@@ -45,7 +45,7 @@ namespace JarvisAPILogic.NerveCenters
             }
             else
             {
-                return "无法识别该指令，正在等待AI转义\r\n----[Edvin Jarvis]";
+                return "无法识别该指令，正在等待转义\r\n----[Edvin Jarvis]";
             }
         }
 
