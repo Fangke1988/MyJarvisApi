@@ -3,3 +3,8 @@ E:\CODE\Git\MyJarvisApi\MyJarvisApi\JarvisModels\bin\Release\JarvisModels.pdb
 E:\CODE\Git\MyJarvisApi\MyJarvisApi\JarvisModels\obj\Release\JarvisModels.csproj.CoreCompileInputs.cache
 E:\CODE\Git\MyJarvisApi\MyJarvisApi\JarvisModels\obj\Release\JarvisModels.dll
 E:\CODE\Git\MyJarvisApi\MyJarvisApi\JarvisModels\obj\Release\JarvisModels.pdb
+H:\Git\MyJarvisApi\JarvisModels\bin\Release\JarvisModels.dll
+H:\Git\MyJarvisApi\JarvisModels\bin\Release\JarvisModels.pdb
+H:\Git\MyJarvisApi\JarvisModels\obj\Release\JarvisModels.csproj.CoreCompileInputs.cache
+H:\Git\MyJarvisApi\JarvisModels\obj\Release\JarvisModels.dll
+H:\Git\MyJarvisApi\JarvisModels\obj\Release\JarvisModels.pdb

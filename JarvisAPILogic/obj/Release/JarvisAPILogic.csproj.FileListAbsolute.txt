@@ -8,3 +8,17 @@ E:\CODE\Git\MyJarvisApi\MyJarvisApi\JarvisAPILogic\obj\Release\JarvisAPILogic.cs
 E:\CODE\Git\MyJarvisApi\MyJarvisApi\JarvisAPILogic\obj\Release\JarvisAPILogic.csproj.CoreCompileInputs.cache
 E:\CODE\Git\MyJarvisApi\MyJarvisApi\JarvisAPILogic\obj\Release\JarvisAPILogic.dll
 E:\CODE\Git\MyJarvisApi\MyJarvisApi\JarvisAPILogic\obj\Release\JarvisAPILogic.pdb
+H:\Git\MyJarvisApi\JarvisAPILogic\bin\Release\JarvisAPILogic.dll
+H:\Git\MyJarvisApi\JarvisAPILogic\bin\Release\JarvisAPILogic.pdb
+H:\Git\MyJarvisApi\JarvisAPILogic\bin\Release\AipSdk.dll
+H:\Git\MyJarvisApi\JarvisAPILogic\bin\Release\JarvisModels.dll
+H:\Git\MyJarvisApi\JarvisAPILogic\bin\Release\Newtonsoft.Json.dll
+H:\Git\MyJarvisApi\JarvisAPILogic\bin\Release\System.Data.SQLite.dll
+H:\Git\MyJarvisApi\JarvisAPILogic\bin\Release\System.Net.Http.dll
+H:\Git\MyJarvisApi\JarvisAPILogic\bin\Release\JarvisModels.pdb
+H:\Git\MyJarvisApi\JarvisAPILogic\bin\Release\System.Net.Http.xml
+H:\Git\MyJarvisApi\JarvisAPILogic\bin\Release\zh-Hans\System.Net.Http.resources.dll
+H:\Git\MyJarvisApi\JarvisAPILogic\obj\Release\JarvisAPILogic.csprojResolveAssemblyReference.cache
+H:\Git\MyJarvisApi\JarvisAPILogic\obj\Release\JarvisAPILogic.csproj.CoreCompileInputs.cache
+H:\Git\MyJarvisApi\JarvisAPILogic\obj\Release\JarvisAPILogic.dll
+H:\Git\MyJarvisApi\JarvisAPILogic\obj\Release\JarvisAPILogic.pdb
